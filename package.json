@@ -15,8 +15,5 @@
     "postcss": "^8.4.23",
     "postcss-modules": "^4.3.1",
     "postcss-nesting": "^11.2.2"
-  },
-  "dependencies": {
-    "gsap": "^3.11.5"
   }
 }
