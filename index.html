@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prototype Clar Development - Strategy and Communication</title>
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+
+        <style>
+            body {
+                scroll-behavior: smooth;
+            }
+
+            ul:not(.list-unstyled) {
+                flex-direction: column;
+                list-style: disc;
+            }
+
+            .list-unstyled  li {
+                list-style: none;
+            }
+
+            ul a {
+                color: inherit;
+            }
+
+            .mb-4 {
+                display: inline-block;
+                margin-bottom: 1rem;
+            }
+
+            .preview {
+                display: inline-block;
+                margin-right: .5rem;
+                width: 1.5rem;
+                height: 1.5rem;
+                border-radius: .75rem;
+                border: 1px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <section>
+                <h1>
+                    Prototype voor Clar Development
+                </h1>
+
+                <p>
+                    Beste developer,<br><br>
+                    Op deze pagina vindt u het interactief prototype voor de nieuwe website van <i>Clar Development - Strategy and Communication</i>. Via deze weg kan je ook de kleuren, fontgroottes en andere assets downloaden.
+                </p>
+
+                <p>
+                    <i>
+                        Je bekijkt dit project best op een groot scherm om het beste resultaat te zien.
+                    </i>
+                </p>
+
+                <p>
+                    De eerste versie hoeft niet responsive te zijn, maar indien jullie nog tijd hebben, is dit een mooi extraatje.
+                </p>
+            </section>
+
+            <hr>
+
+            <section>
+                <strong class="mb-4">Inhoudstafel</strong>
+
+                <ul>
+                    <li>
+                        <a href="#prototype">Interactief prototype</a>
+                    </li>
+                    <li>
+                        <a href="#fonts">Typografie</a>
+
+                        <ul>
+                            <li><a href="#fonts">Fonts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#colors">Kleuren</a>
+
+                        <ul>
+                            <li><a href="#main-colors">Hoofdkleuren</a></li>
+                            <li><a href="#transition-colors">Transitiekleuren voor horizontale scroll</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#assets">Bijlagen</a>
+
+                        <ul>
+                            <li><a href="#lottie">Lottie</a></li>
+                            <li><a href="#svg">SVG</a></li>
+                            <li><a href="#images">Afbeeldingen</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section id="prototype">
+                <h2>Interactief prototype</h2>
+                <div style="aspect-ratio:16/10; position:relative; display:block; width: 100%">
+                    <iframe width="100%" height="100%"
+                    frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0" src="cb62c59f769e1c5ab949513be7fa5c7b"></iframe>
+                  </div>
+            </section>
+
+            <section id="fonts">
+                <h2>Typografie</h2>
+
+                <p>
+                    Hier vinden jullie een overzicht van de verschillende typografische gegevens. De lettertypes kan je ook downloaden via deze pagina.
+                </p>
+
+                <h3>Lettertypes</h3>
+
+                <ul>
+                    <li>
+                        <a download href="/src/fonts/subset-AkzidenzGroteskBQ-Reg.woff2">
+                            Akzidenz-Grotesk BQ
+                        </a>
+                    </li>
+                    <li>
+                        <a download href="/src/fonts/subset-Canela-Light.woff2">
+                            Canela Light
+                        </a>
+                    </li>
+                    <li>
+                        <a download href="/src/fonts/subset-Canela-LightItalic.woff2">
+                            Canela Light Italic
+                        </a>
+                    </li>
+                    <li>
+                        <a download href="/src/fonts/subset-Canela-Regular.woff2">
+                            Canela Regular
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id="colors">
+                <h2>Kleuren</h2>
+
+                <h3 id="main-colors">Hoofdkleuren</h3>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <div style="background-color: #f8f6f1;" class="preview"></div>
+                        #f8f6f1
+                    </li>
+                    <li class="mb-2">
+                        <div style="background-color: #1b1b1b;" class="preview"></div>
+                        #1b1b1b
+                    </li>
+                    <li>
+                        <div style="background-color: #082b9d;" class="preview"></div>
+                        #082b9d
+                    </li>
+                    <li>
+                        <div style="background-color: #0d4135;" class="preview"></div>
+                        #0d4135
+                    </li>
+                    <li>
+                        <div style="background-color: #8acdb8;" class="preview"></div>
+                        #8acdb8
+                    </li>
+                    <li>
+                        <div style="background-color: #a2543d;" class="preview"></div>
+                        #a2543d
+                    </li>
+                    <li>
+                        <div style="background-color: #f4b63e;" class="preview"></div>
+                        #f4b63e
+                    </li>
+                    <li>
+                        <div style="background-color: #f7d1ba;" class="preview"></div>
+                        #f7d1ba
+                    </li>
+                    <li>
+                        <div style="background-color: #ffffff;" class="preview"></div>
+                        #ffffff
+                    </li>
+                </ul>
+
+                <h3 id="transition-colors">Transitiekleuren voor horizontale scroll</h3>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <div style="background-color: #082b9d;" class="preview"></div>
+                        #082b9d
+                    </li>
+                    <li>
+                        <div style="background-color: #a2543d;" class="preview"></div>
+                        #a2543d
+                    </li>
+                    <li>
+                        <div style="background-color: #f7d1ba;" class="preview"></div>
+                        #f7d1ba
+                    </li>
+                    <li>
+                        <div style="background-color: #975e1a;" class="preview"></div>
+                        #975e1a
+                    </li>
+                    <li>
+                        <div style="background-color: #e7b46c;" class="preview"></div>
+                        #e7b46c
+                    </li>
+                    <li>
+                        <div style="background-color: #43503f;" class="preview"></div>
+                        #43503f
+                    </li>
+                    <li>
+                        <div style="background-color: #679678;" class="preview"></div>
+                        #679678
+                    </li>
+                    <li>
+                        <div style="background-color: #44598b;" class="preview"></div>
+                        #44598b
+                    </li>
+                    <li>
+                        <div style="background-color: #8aaeca;" class="preview"></div>
+                        #8aaeca
+                    </li>
+                    <li>
+                        <div style="background-color: #622e3d;" class="preview"></div>
+                        #622e3d
+                    </li>
+                    <li>
+                        <div style="background-color: #ce8b9f;" class="preview"></div>
+                        #ce8b9f
+                    </li>
+                    <li>
+                        <div style="background-color: #99451c;" class="preview"></div>
+                        #99451c
+                    </li>
+                    <li>
+                        <div style="background-color: #d37e55;" class="preview"></div>
+                        #d37e55
+                    </li>
+                </ul>
+            </section>
+
+            <section id="assets">
+                <h2 id="assets">Bijlagen</h2>
+
+                <p>
+                    Download de bijlagen voor het project.
+                </p>
+
+                <h3 id="lottie">Lottie</h3>
+
+                <ul>
+                    <li>
+                        <a download href="./src/lottie/dots.lottie">
+                            Lottie Animatie met puntjes.
+                        </a>
+                    </li>
+                </ul>
+
+                <h3 id="svg">SVG</h3>
+
+                <ul>
+                    <li>
+                        <a download href="./src/svg/circles.svg">
+                            Cirkels
+                        </a>
+                    </li>
+                </ul>
+
+                <h3 id="images">Afbeeldingen</h3>
+
+                <ul>
+                    <li>
+                        <a download href="./src/images/chiara.jpg">
+                            Chiara
+                        </a>
+                    </li>
+                    <li>
+                        <a download href="./src/images/christel.jpg">
+                            Christel
+                        </a>
+                    </li>
+                    <li>
+                        <a download href="./src/images/geraldine.jpg">
+                            Geraldine
+                        </a>
+                    </li>
+                    <li>
+                        <a download href="./src/images/phillipa.jpg">
+                            Phillipa
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+        </main>
+
+        <script>
+            // Disable right-click
+            document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+            function ctrlShiftKey(e, keyCode) {
+            return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+            }
+
+            document.onkeydown = (e) => {
+            // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+            if (
+                event.keyCode === 123 ||
+                ctrlShiftKey(e, 'I') ||
+                ctrlShiftKey(e, 'J') ||
+                ctrlShiftKey(e, 'C') ||
+                (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+            )
+                return false;
+            };
+        </script>
+    </body>
+</html>
